@@ -155,27 +155,6 @@ erros.log
 
 com data, traceback e contexto.
 
-🧑‍💻 Autor
-
-Desenvolvido por: [Seu Nome Aqui]
-💬 Contato: seuemail@exemplo.com
-
-📅 Versão: 1.0
-📘 Licença: MIT
-
-💡 Próximas Melhorias (sugestões)
-
-🔎 Filtros avançados por data/cliente nos pedidos
-
-📈 Relatórios e gráficos de vendas (matplotlib)
-
-📦 Exportação para CSV ou PDF
-
-🌐 Interface Web (Flask ou FastAPI + SQLite)
-
-✨ Divirta-se explorando e expandindo o sistema!
-
-
 ---
 # Atualizações (Novembro 2025)
 
@@ -192,3 +171,4 @@ Desenvolvido por: [Seu Nome Aqui]
 
 - Use o menu lateral para acessar qualquer funcionalidade sem trocar de janela.
 - Todo o projeto segue um padrão visual centralizado em `estilo.py`. Edite esse arquivo para mudar cores, fontes ou botões em toda a aplicação!
+
