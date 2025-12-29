@@ -172,3 +172,53 @@ com data, traceback e contexto.
 - Use o menu lateral para acessar qualquer funcionalidade sem trocar de janela.
 - Todo o projeto segue um padrão visual centralizado em `estilo.py`. Edite esse arquivo para mudar cores, fontes ou botões em toda a aplicação!
 
+---
+
+## 🎮 Como Reverter Opções de Inicialização do Steam
+
+Se você configurou opções de inicialização no Steam (como `-no-browser +open steam://open/minigameslist`) e deseja removê-las, siga estas instruções:
+
+### Método 1: Através do Cliente Steam (Recomendado)
+
+1. **Abra o Steam** no seu computador
+2. Vá para **Biblioteca**
+3. Clique com o botão direito no jogo desejado
+4. Selecione **Propriedades**
+5. Na aba **Geral**, procure por **OPÇÕES DE INICIALIZAÇÃO**
+6. **Apague todo o conteúdo** da caixa de texto
+7. Clique em **Fechar**
+
+### Método 2: Através de Atalhos do Windows
+
+Se você criou um atalho personalizado do Steam com parâmetros de linha de comando:
+
+1. Localize o atalho (geralmente na Área de Trabalho ou Menu Iniciar)
+2. Clique com o botão direito no atalho
+3. Selecione **Propriedades**
+4. Na aba **Atalho**, encontre o campo **Destino**
+5. Remova todos os parâmetros após `steam.exe`, deixando apenas:
+   ```
+   "C:\Program Files (x86)\Steam\steam.exe"
+   ```
+6. Clique em **OK**
+
+### Método 3: Resetar Configurações do Steam
+
+Para remover todas as configurações personalizadas:
+
+1. **Feche completamente o Steam** (File → Exit ou através da bandeja do sistema)
+2. Navegue até a pasta do Steam:
+   ```
+   C:\Program Files (x86)\Steam
+   ```
+3. Localize o arquivo `steam.exe`
+4. Execute o Steam normalmente (duplo clique)
+5. As opções personalizadas de atalhos externos serão ignoradas
+
+### ⚠️ Observações Importantes
+
+- Remover opções de inicialização **não afeta** seus jogos salvos ou instalações
+- As configurações de cada jogo individual (nas Propriedades) são armazenadas separadamente
+- Se o problema persistir, você pode verificar a pasta `userdata` do Steam para configurações adicionais
+- Para problemas persistentes, considere reinstalar o Steam (seus jogos serão preservados)
+
