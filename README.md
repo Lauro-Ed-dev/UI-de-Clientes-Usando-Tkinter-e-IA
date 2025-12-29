@@ -202,18 +202,17 @@ Se você criou um atalho personalizado do Steam com parâmetros de linha de coma
    ```
 6. Clique em **OK**
 
-### Método 3: Resetar Configurações do Steam
+### Método 3: Verificar Atalhos na Área de Trabalho e Menu Iniciar
 
-Para remover todas as configurações personalizadas:
+Se você está sendo redirecionado automaticamente ao abrir o Steam:
 
 1. **Feche completamente o Steam** (File → Exit ou através da bandeja do sistema)
-2. Navegue até a pasta do Steam:
-   ```
-   C:\Program Files (x86)\Steam
-   ```
-3. Localize o arquivo `steam.exe`
-4. Execute o Steam normalmente (duplo clique)
-5. As opções personalizadas de atalhos externos serão ignoradas
+2. Verifique se há atalhos personalizados em:
+   - Área de Trabalho
+   - `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
+   - `%APPDATA%\Microsoft\Windows\Start Menu\Programs`
+3. Se encontrar atalhos do Steam com parâmetros extras, use o **Método 2** para corrigi-los
+4. Alternativamente, delete esses atalhos e crie um novo sem parâmetros
 
 ### ⚠️ Observações Importantes
 
